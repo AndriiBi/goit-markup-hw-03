@@ -40,8 +40,6 @@ img {
 
 .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -58,12 +56,15 @@ img {
   overflow: hidden;
 }
 
+.page-header {
+  border-bottom: solid 1px #e7e9fc;
+}
+
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: solid 1px #e7e9fc;
-  padding-right: 156px;
-  padding-left: 156px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header-navigation {
@@ -82,7 +83,9 @@ img {
   text-transform: uppercase;
   margin-left: 156px;
   margin-top: 24px;
-  margin-bottom: 24px;
+  margin-right: 76px;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .logo-studio {
@@ -107,6 +110,7 @@ img {
   color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
+  gap: 40px;
 }
 
 .header-link:hover,
@@ -122,6 +126,7 @@ img {
   font-style: normal;
   display: flex;
   margin-left: auto;
+  gap: 40px;
 }
 
 .list {
@@ -292,8 +297,7 @@ img {
 
 .footer {
   background-color: #2e2f42;
-  padding-top: 64px;
-  padding-bottom: 136px;
+  padding: 100px 0;
 }
 
 .footer-wrap {
@@ -350,6 +354,7 @@ img {
 .filter-btn:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .filter-img-section {
