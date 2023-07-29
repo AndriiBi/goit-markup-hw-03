@@ -70,6 +70,7 @@ img {
 .header-navigation {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .logo-web {
@@ -127,6 +128,12 @@ img {
   display: flex;
   margin-left: auto;
   gap: 40px;
+}
+
+.address-list {
+  gap: 40px;
+  list-style: none;
+  display: flex;
 }
 
 .list {
