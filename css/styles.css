@@ -67,7 +67,7 @@ img {
   padding-right: 15px;
 }
 
-.header-navigation {
+.nav-list {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -256,13 +256,8 @@ img {
 }
 
 .team {
-  padding-bottom: 36px;
-}
-
-.team-wrap {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -285,6 +280,12 @@ img {
 
 .team-card {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.text-wrap {
+  padding: 32px 0;
 }
 
 .team-name {
@@ -294,6 +295,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .team-text {
