@@ -199,7 +199,7 @@ img {
 }
 
 .sub-main-section {
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .features-list {
@@ -209,8 +209,8 @@ img {
   padding-left: 156px;
 }
 
-.features-item {
-  width: calc((100% - 3 * 24px) / 4);
+.features-item:first-child {
+  width: calc((100% - 72px) / 4);
 }
 
 .features-title {
@@ -219,6 +219,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .features-title-text {
