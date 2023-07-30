@@ -79,6 +79,7 @@ img {
 }
 
 .nav-list {
+  display: flex;
   gap: 40px;
 }
 
@@ -214,8 +215,6 @@ img {
 .features-list {
   display: flex;
   gap: 24px;
-  padding-right: 156px;
-  padding-left: 156px;
 }
 
 .features-item {
