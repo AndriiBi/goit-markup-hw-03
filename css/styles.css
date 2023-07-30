@@ -256,8 +256,6 @@ img {
   display: flex;
   align-items: center;
   gap: 24px;
-  padding-right: 156px;
-  padding-left: 156px;
 }
 
 .engage-item {
@@ -283,8 +281,6 @@ img {
   display: flex;
   align-items: center;
   gap: 24px;
-  padding-right: 156px;
-  padding-left: 156px;
 }
 
 .team-card {
